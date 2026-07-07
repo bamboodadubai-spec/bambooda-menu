@@ -4,73 +4,99 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>BAMBOODA Digital Menu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
-    <div class="overlay"></div>
-    <div class="hero-content">
-      <div class="logo">BAMBOODA</div>
-      <p class="sub">Thai & Asian Fusion • Dubai</p>
-      <h1>Digital Menu</h1>
-      <a href="#menu" class="main-btn">View Menu</a>
-    </div>
+  <header class="hero" id="top">
+    <div class="hero-glow"></div>
+    <div class="brand-mark">✦</div>
+    <p class="eyebrow">Thai & Asian Fusion • Dubai</p>
+    <h1>BAMBOODA</h1>
+    <p class="subtitle">Bar & Lounge Digital Menu</p>
+    <a href="#menu" class="primary-btn">View Demo Menu</a>
   </header>
 
-  <nav class="quick-links">
+  <nav class="category-bar">
     <a href="#beer">Beer</a>
     <a href="#whisky">Whisky</a>
-    <a href="#cocktails">Cocktails</a>
     <a href="#wine">Wine</a>
-    <a href="#food">Food</a>
+    <a href="#cocktails">Cocktails</a>
+    <a href="#spirits">Spirits</a>
+    <a href="#soft">Soft Drinks</a>
   </nav>
 
-  <main id="menu" class="container">
+  <main id="menu" class="menu-wrap">
+    <section class="intro-card">
+      <h2>Demo Menu Preview</h2>
+      <p>This is a sample version with 3 items per section. Full menu can be added after approval/payment.</p>
+    </section>
+
     <section id="beer" class="menu-section">
-      <h2>Beer</h2>
-      <div class="item"><div><h3>Heineken</h3><p>330ml Bottle</p></div><span>AED 40</span></div>
-      <div class="item"><div><h3>Amstel</h3><p>330ml Bottle</p></div><span>AED 35</span></div>
-      <div class="item"><div><h3>Corona</h3><p>330ml Bottle</p></div><span>AED 45</span></div>
+      <div class="section-head"><span>🍺</span><h2>Beer Selection</h2></div>
+      <div class="menu-grid">
+        <article class="item"><div><h3>Heineken</h3><p>Draught Beer • Netherlands</p></div><strong>40 / 70</strong></article>
+        <article class="item"><div><h3>Stella Artois</h3><p>Draught Beer • Belgium</p></div><strong>42 / 70</strong></article>
+        <article class="item"><div><h3>Corona</h3><p>Bottled Beer • Mexico</p></div><strong>55</strong></article>
+      </div>
     </section>
 
     <section id="whisky" class="menu-section">
-      <h2>Whisky</h2>
-      <div class="item"><div><h3>Johnnie Walker Black Label</h3><p>30ml / 60ml / Bottle</p></div><span>AED XX</span></div>
-      <div class="item"><div><h3>Chivas Regal 12</h3><p>30ml / 60ml / Bottle</p></div><span>AED XX</span></div>
-      <div class="item"><div><h3>Jack Daniel’s</h3><p>30ml / 60ml / Bottle</p></div><span>AED XX</span></div>
-    </section>
-
-    <section id="cocktails" class="menu-section">
-      <h2>Cocktails</h2>
-      <div class="item"><div><h3>Bombay Sapphire G&T</h3><p>Refreshing gin, tonic, lime</p></div><span>AED XX</span></div>
-      <div class="item"><div><h3>Passion Fruit Mojito</h3><p>Mint, lime, passion fruit</p></div><span>AED XX</span></div>
-      <div class="item"><div><h3>Pina Colada</h3><p>Coconut, pineapple, rum</p></div><span>AED XX</span></div>
+      <div class="section-head"><span>🥃</span><h2>Whisky</h2></div>
+      <div class="menu-grid">
+        <article class="item"><div><h3>Johnnie Walker Red</h3><p>30 ml / Bottle</p></div><strong>50 / 900</strong></article>
+        <article class="item"><div><h3>Jack Daniel’s</h3><p>30 ml / Bottle</p></div><strong>55 / 1000</strong></article>
+        <article class="item"><div><h3>Chivas Regal 12Y</h3><p>30 ml / Bottle</p></div><strong>65 / 1100</strong></article>
+      </div>
     </section>
 
     <section id="wine" class="menu-section">
-      <h2>Wine</h2>
-      <div class="item"><div><h3>House Red Wine</h3><p>Glass / Bottle</p></div><span>AED XX</span></div>
-      <div class="item"><div><h3>House White Wine</h3><p>Glass / Bottle</p></div><span>AED XX</span></div>
-      <div class="item"><div><h3>Sparkling Wine</h3><p>Bottle</p></div><span>AED XX</span></div>
+      <div class="section-head"><span>🍷</span><h2>Wine Collection</h2></div>
+      <div class="menu-grid">
+        <article class="item"><div><h3>Conte Fosco Cuvée Brut</h3><p>Sparkling Wine • Italy</p></div><strong>65 / 350</strong></article>
+        <article class="item"><div><h3>Casillero Chardonnay</h3><p>House White</p></div><strong>60 / 300</strong></article>
+        <article class="item"><div><h3>Santa Julia Malbec</h3><p>House Red</p></div><strong>60 / 300</strong></article>
+      </div>
     </section>
 
-    <section id="food" class="menu-section">
-      <h2>Food</h2>
-      <div class="item"><div><h3>Thai Starter</h3><p>Chef special</p></div><span>AED XX</span></div>
-      <div class="item"><div><h3>Asian Fusion Platter</h3><p>Signature sharing plate</p></div><span>AED XX</span></div>
-      <div class="item"><div><h3>Main Course</h3><p>Selected dishes</p></div><span>AED XX</span></div>
+    <section id="cocktails" class="menu-section">
+      <div class="section-head"><span>🍸</span><h2>Cocktails</h2></div>
+      <div class="menu-grid">
+        <article class="item"><div><h3>The Bambooda Negroni</h3><p>Dark, Campari & Cinzano Rosso</p></div><strong>75</strong></article>
+        <article class="item"><div><h3>Passion Fruit Delight</h3><p>Vodka, passion fruit syrup & lemon juice</p></div><strong>75</strong></article>
+        <article class="item"><div><h3>Long Island Iced Tea</h3><p>Vodka, rum, gin, tequila & triple sec</p></div><strong>110</strong></article>
+      </div>
+    </section>
+
+    <section id="spirits" class="menu-section">
+      <div class="section-head"><span>🍾</span><h2>Spirits Selection</h2></div>
+      <div class="menu-grid">
+        <article class="item"><div><h3>Absolut</h3><p>Vodka • 30 ml / Bottle</p></div><strong>55 / 850</strong></article>
+        <article class="item"><div><h3>Bombay Sapphire</h3><p>Gin • 30 ml / Bottle</p></div><strong>55 / 900</strong></article>
+        <article class="item"><div><h3>Bacardi Carta Blanca</h3><p>Rum • 30 ml / Bottle</p></div><strong>55 / 900</strong></article>
+      </div>
+    </section>
+
+    <section id="soft" class="menu-section">
+      <div class="section-head"><span>🥤</span><h2>Soft Drinks</h2></div>
+      <div class="menu-grid">
+        <article class="item"><div><h3>Pepsi Regular</h3><p>Chilled soft drink</p></div><strong>20</strong></article>
+        <article class="item"><div><h3>Seven Up Regular</h3><p>Chilled soft drink</p></div><strong>20</strong></article>
+        <article class="item"><div><h3>Red Bull</h3><p>Energy drink</p></div><strong>35</strong></article>
+      </div>
+    </section>
+
+    <section class="cta-card">
+      <h2>Full Menu Upgrade</h2>
+      <p>After client confirmation, all items, premium images, gallery, WhatsApp, location, and review buttons can be added.</p>
+      <a href="#top" class="primary-btn small">Back to Top</a>
     </section>
   </main>
 
   <footer>
-    <h2>BAMBOODA</h2>
-    <p>Scan • Explore • Order</p>
-    <div class="footer-links">
-      <a href="tel:+971000000000">Call</a>
-      <a href="https://wa.me/971000000000">WhatsApp</a>
-      <a href="#">Location</a>
-      <a href="#">Review</a>
-    </div>
+    <p>All prices are in AED. Demo menu for preview only.</p>
   </footer>
 </body>
 </html>
