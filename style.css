@@ -195,3 +195,19 @@ h1 span{
   background:#d4af37;
   color:#000;
 }
+.menu-page{
+  width:100%;
+  min-height:100vh;
+  background:#000;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.menu-image{
+  width:100%;
+  max-width:520px;
+  height:auto;
+  display:block;
+  object-fit:contain;
+}
