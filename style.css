@@ -16,7 +16,7 @@ body{
   min-height:100vh;
   position:relative;
   background:
-linear-gradient(90deg, rgba(0,0,0,.40) 0%,rgba(0,0,0,.18) 45%,rgba(0,0,0,0) 100%
+linear-gradient(90deg, rgba(0,0,0,.40) 0%,rgba(0,0,0,.18) 45%,rgba(0,0,0,0) 100%)
 url("hero-bg.jpg") center top/contain no-repeat;
 background-color:#050302;
   display:flex;
